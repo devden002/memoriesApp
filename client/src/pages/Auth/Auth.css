@@ -1,0 +1,8 @@
+.cover_bg {
+    margin: 0;
+    background-image: url("../../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+  }

@@ -1,0 +1,30 @@
+
+ #main {
+    display: grid;
+    grid-template-columns: 6rem auto;
+  }
+  
+  @media (min-width: 1200px) { 
+    
+    #main { grid-template-columns: 12rem auto; }
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .pt-16 {
+    padding-top: 4rem;
+  }
+
+  .top-full { top: 100%; }
+  .left-full { left: 100%; }
+
+  
+  @media (min-width: 1200px) {
+    .xl\:pin-none { left: auto; }
+  }
+  
+  .group:hover .group-hover\:block {
+    display: block;
+  }
